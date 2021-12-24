@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+    max-width: 400px;
+    margin: 10vh auto;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: hsl(225, 100%, 98%);
+    box-shadow: 0 2px 10px 4px hsla(0, 0%, 0%, 0.1);
+}
+
+.card__meta {
+    padding: 12px 32px 32px;
+}
+
+.card__illustration {
+    max-width: 100%;
+}
+
+.card__title {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.card__content {
+    line-height: 1.5;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan {
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    background-color: hsl(225, 100%, 96%);
+    border-radius: 10px;
+}
+
+.plan__meta {
+    padding-left: 16px;
+    padding-right: 16px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan__title {
+    font-weight: 900;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.plan__pricing {
+    margin-top: 6px;
+    font-size: 14px;
+    text-align: left;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan__cta {
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.card__cta {
+    margin-top: 28px;
+    min-width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    font-weight: 700;
+    box-shadow: 0px 4px 4px 2px hsla(0, 0%, 0%, 0.1);
+}
+
+.card__cancel {
+    margin-top: 24px;
+    appearance: 0;
+    background-color: transparent;
+    border: 0;
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
