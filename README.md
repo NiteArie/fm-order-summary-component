@@ -1,5 +1,9 @@
 # fm-order-summary-component (Order Summary Component)
 
+## Live View
+
+URL: https://nitearie.github.io/fm-order-summary-component/
+
 ## Design
 
 ![Design Preview](./design/desktop-preview.jpg)
